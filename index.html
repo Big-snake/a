@@ -1,0 +1,41 @@
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script>
+var vid = document.getElementById("video");
+
+if ( video.readyState === 4 ) {
+   vid.play();
+}
+</script>
+<script>
+$(document).ready(function(){
+    $("video").fadeOut(1);
+  });
+</script>
+<script>
+$(document).ready(function(){
+var vid = document.getElementById("video");
+setTimeout(
+  function() 
+  {
+    $("video").fadeIn(1111);
+if ( video.readyState === 4 ) {
+   vid.play();
+}
+  }, 100);
+  });
+  </script>
+</head>
+<body onload="myFunction()">
+<noscript>
+<h1>Please enable javascript</h1>
+</noscript>
+<video class="video" id="video" src="https://cdn-b-east.streamable.com/video/mp4-mobile/h5tw1.mp4?token=03IihPzDAD5BX1g2ylkKgw&expires=1582996560" width=100% controls loop>
+</video>
+<style>
+.video {
+  box-shadow: 10px 10px 5px grey;
+  
+}
+</style>
+</body>
